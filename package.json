@@ -1,20 +1,21 @@
 {
-  "name": "ex-gen-app",
+  "name": "mini-board-2",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
+    "bookshelf": "^0.13.3",
+    "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
-    "express-session": "^1.17.1",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
-    "mysql": "^2.18.1",
-    "sqlite3": "^5.0.0",
-    "xml2js": "^0.4.23"
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.2.0",
+    "http-errors": "~1.6.2",
+    "knex": "^0.14.6",
+    "morgan": "~1.9.0",
+    "mysql": "^2.15.0"
   }
 }
